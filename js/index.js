@@ -14,7 +14,7 @@ const printData = response =>{
     container.appendChild(wrapper)
 }
 
-function loadDoc (){
+function loadDoc () {
     //1
     var xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = function(){
