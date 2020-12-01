@@ -3,7 +3,6 @@ const printData = response =>{
     const name = document.createElement('h1')
     const image = document.createElement('img')
     const id = document.createElement('p')
-    //const dana = document.createElement('h1')
 
     name.innerHTML = response.name
     id.innerHTML = response.id
